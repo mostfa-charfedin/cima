@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BROKEN MIRRORS</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="detailmaillot.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="Accueil">
+        <div class="topnav" id="myTopnav">
+            
+            <div >
+                <img src="images/logo.png" style="width: auto;"  alt="logo club african">
+                
+            </div>
+            <nav>
+            <ul>
+                <input type="checkbox" id="check">
+                <label for="check">&#x268c;</label>
+            <li><a href="index.html">Acceuil</a></li>  
+            
+            <li><a href="contact.html">Contact</a></li>  
+            
+            </ul>
+            <nav>
+          </div>
+        </header>
+    
+
+
+    <div class="container">
+        
+        <div class="details-container">
+            <h1>BROKEN MIRRORS</h1>
+            <img src="images/drama/brokenMirrors.jpg">
+            <p class="price">15<span>DT</span></p>
+            <form>
+               
+
+                <button type="submit">Payer</button>
+            </form>
+        </div>
+    </div>
+
+    <address>
+        <div class="Container Flex6">
+            <div>
+               
+                <img src="img/fone.png" alt="fone">
+                <p>+216 71 123 456 / +216 71 123 789
+
+                </p>
+            </div>
+            <div>
+               
+                <a href="mailto:seuemail@email.com?subject=HTML5CSS3">
+                    <img src="img/email.png" alt="email" title="Enviar E-mail">
+                    <p>contact@cima.com</p>
+                </a>
+                
+            </div>
+            
+        </div>
+    </address>
+    <footer>
+        <div class="Container Flex5">
+            <div>
+                <p>&#169;<span id="copyrightYear"></span> - <a  target="_blank">CIMA, Site Officiel</a></p>
+                
+            </div>
+            <div id="social">     
+               <img src="img/facebook.png"
+                        alt="facebook">
+               <img src="img/instagram.png"
+                        alt="instagram">
+                <img src="img/twitter.png" alt="twitter">
+            </div>
+        </div>
+    </footer>
+    <a href="#Accueil" id="topo"><img src="img/topo.png" alt="topo do site"></a>
+
+    <script>
+        // Atualizar automaticamente o ano (footer - copyright)  
+        let ano = document.getElementById("copyrightYear")
+        let anoAtual = new Date().getFullYear()
+        ano.textContent = anoAtual
+    </script>
+</body>
+
+</html>
